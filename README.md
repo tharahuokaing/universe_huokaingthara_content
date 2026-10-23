@@ -1,6 +1,4 @@
 # universe_huokaingthara_content
-ខាងក្រោមនេះគឺជាឯកសារ **`README.md`** ប្រកបដោយវិជ្ជាជីវៈ សម្រាប់ដាក់នៅលើ GitHub Repository សម្រាប់គម្រោង **`universe_huokaingthara_content`** របស់អ្នក៖
-
 # 📂 UNIVERSE HUOKAING THARA - Content Platform Matrix
 
 > An immersive, high-traffic bilingual (Khmer & English) digital content repository and media showcase platform featuring cyberpunk holographic aesthetics, dynamic live search, and multi-category media management.
