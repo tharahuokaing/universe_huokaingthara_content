@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="km" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSE HUOKAING THARA - Content Matrix / មាតិកាឌីជីថល</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="universe_huokaingthara.jpg">
+</head>
+<body>
+
+    <!-- Holographic Scanline Overlay -->
+    <div id="holo-overlay"></div>
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="logo-container">
+            <i class="fa-solid fa-folder-open spin-icon"></i>
+            <h1>UNIVERSE HUOKAING THARA <span class="sub-title">មជ្ឈមណ្ឌលមាតិកា និងបណ្តុំព័ត៌មាន</span></h1>
+        </div>
+        <nav class="nav-links">
+            <a href="index.html" class="active">Content / មាតិកា</a>
+            <a href="#categories">Categories / ប្រភេទ</a>
+        </nav>
+        <div class="controls">
+            <button id="langToggleBtn" class="control-btn">🇰🇭 / EN</button>
+            <button id="themeToggleBtn" class="control-btn"><i class="fa-solid fa-moon"></i></button>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="main-container">
+        
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <h2 class="km">បណ្តុំមាតិកា និងបណ្ណាល័យឌីជីថលសកល</h2>
+            <h2 class="en">Global Digital Content Repository & Matrix</h2>
+            <p class="km">ស្វែងរកមាតិកា វីដេអូ ស្នាដៃសិល្បៈ រឿងព្រេង និងឯកសារយុទ្ធសាស្ត្ររបស់ UNIVERSE HUOKAING THARA Group ក្រោមការដឹកនាំដោយ Huokaing Thara ។</p>
+            <p class="en">Explore curated media, videos, artistic works, folklore, and strategic documents of UNIVERSE HUOKAING THARA Group led by Huokaing Thara.</p>
+        </section>
+
+        <!-- Search & Filter Bar -->
+        <section class="filter-section">
+            <div class="search-box">
+                <i class="fa-solid fa-search"></i>
+                <input type="text" id="searchInput" placeholder="ស្វែងរកមាតិកា... / Search content...">
+            </div>
+        </section>
+
+        <!-- Content Grid Section -->
+        <section id="categories" class="content-grid">
+            
+            <!-- Item 1: Movies -->
+            <div class="content-card" data-category="movies">
+                <div class="card-badge">🎬 Movies</div>
+                <h3 class="km">ភាពយន្ត និងរឿងភាគ</h3>
+                <h3 class="en">Feature Films & Series</h3>
+                <p class="km">បណ្តុំភាពយន្តខ្នាតធំ និងរឿងភាគរំភើបៗគុណភាពខ្ពស់កម្រិត HD។</p>
+                <p class="en">High-definition feature films and dramatic serialized series.</p>
+                <span class="meta-tag">15M+ Views</span>
+            </div>
+
+            <!-- Item 2: Music Videos -->
+            <div class="content-card" data-category="music">
+                <div class="card-badge">🎵 Music</div>
+                <h3 class="km">វីដេអូតន្ត្រី</h3>
+                <h3 class="en">Music Videos</h3>
+                <p class="km">បទចម្រៀងថ្មីៗ និងវីដេអូមิวសិកវីដេអូផ្លូវការរបស់សិល្បករល្បីៗ។</p>
+                <p class="en">Official music releases and hit tracks from top artists.</p>
+                <span class="meta-tag">12M+ Views</span>
+            </div>
+
+            <!-- Item 3: Pranks -->
+            <div class="content-card" data-category="prank">
+                <div class="card-badge">😂 Pranks</div>
+                <h3 class="km">វីដេអូកំប្លែង</h3>
+                <h3 class="en">Comedy & Pranks</h3>
+                <p class="km">វីដេអូកំប្លែងសប្បាយៗ លេងសើចតាមដងផ្លូវ ជួយកាត់បន្ថយភាពតានតឹង។</p>
+                <p class="en">Hilarious public pranks and street comedy compilation.</p>
+                <span class="meta-tag">20M+ Views</span>
+            </div>
+
+            <!-- Item 4: Ghost Stories -->
+            <div class="content-card" data-category="ghost">
+                <div class="card-badge">👻 Folklore</div>
+                <h3 class="km">និទានរឿងខ្មោចខ្មែរ</h3>
+                <h3 class="en">Ghost Stories Khmer</h3>
+                <p class="km">រឿងព្រេង និងរឿងខ្មោចបុរាណខ្មែរ រៀបរៀងដោយ លោក ជອນ រតនៈ។</p>
+                <p class="en">Traditional Cambodian folklore and horror tales by Mr. Chorn Rothanak.</p>
+                <span class="meta-tag">16M+ Views</span>
+            </div>
+
+            <!-- Item 5: Stories & Articles -->
+            <div class="content-card" data-category="stories">
+                <div class="card-badge">📜 Stories</div>
+                <h3 class="km">រឿងរ៉ាវ និងអត្ថបទ</h3>
+                <h3 class="en">Stories & Articles</h3>
+                <p class="km">អត្ថបទអាន អត្ថបទស្រាវជ្រាវ និងសាច់រឿងអប់រំផ្សេងៗ។</p>
+                <p class="en">Engaging literary articles, research notes, and written narratives.</p>
+                <span class="meta-tag">Active Archive</span>
+            </div>
+
+            <!-- Item 6: Financial & Tech -->
+            <div class="content-card" data-category="tech">
+                <div class="card-badge">💻 Tech & Finance</div>
+                <h3 class="km">បច្ចេកវិទ្យា និងថវិកា</h3>
+                <p class="en">Tech & Financial Matrix</p>
+                <p class="km">ទិដ្ឋភាពទូទៅនៃស្ថាបត្យកម្មវេបសាយ វិស្វកម្ម និងតារាងថវិកាសម្ងាត់។</p>
+                <p class="en">Web architecture engineering metrics and classified budget matrices.</p>
+                <span class="meta-tag">Top Secret</span>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2026 UNIVERSE HUOKAING THARA Group. All Rights Reserved. / រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
